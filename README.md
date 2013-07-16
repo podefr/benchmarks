@@ -1,3 +1,3 @@
 Benchmarks
 
-* prototypal pattern vs closre pattern memory footprint
+* prototypal pattern vs closure pattern memory footprint
