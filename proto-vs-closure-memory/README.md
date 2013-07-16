@@ -1,4 +1,4 @@
-This benchmark measures the memory footprint of prototype pattern vs a closure pattern
+This benchmark measures the memory footprint of prototype pattern vs a closure pattern (Chrome Canary 30)
 -------------------
 
 In this recording, Brendan Eich compares both patterns http://www.aminutewithbrendan.com/pages/20110216. Thanks to the newest Chrome Dev Tools it's very easy to compare both solutions in terms of memory.
