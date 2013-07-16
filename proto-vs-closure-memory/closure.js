@@ -1,22 +1,38 @@
 function ClosurePerson() {
 
-	var _name = '';
-
 	this.getName = function getName() {
-		return _name;
 	};
 
-	this.setName = function setName(name) {
-		_name = name;
+	this.setName = function setName() {
 	};
 
 	this.sayHi = function sayHi() {
-		console.log(_name + 'says hi');
+	};
+
+	this.setAge = function setAge() {
+	};
+
+	this.setHobby = function setHobby() {
+	};
+
+	this.setCity = function setCity() {
+	};
+
+	this.setPhone = function setPhone() {
+	};
+
+	this.setCar = function setCar() {
+	};
+
+	this.setComputer = function setComputer() {
+	};
+
+	this.setSport = function setSport() {
 	};
 
 }
 
 var closurePersons = [];
-for (var i = 0; i < 10000; i++) {
+for (var i = 0; i < 1000; i++) {
 	closurePersons.push(new ClosurePerson);
 }
